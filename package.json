@@ -1,0 +1,49 @@
+{
+  "name": "whorl-memoize",
+  "version": "0.0.0",
+  "description": "whorl memoize decorator",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whorljs/whorl-memoize.git"
+  },
+  "keywords": [
+    "whorl",
+    "memoize",
+    "decorator"
+  ],
+  "author": "Eric Pattison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whorljs/whorl-memoize/issues"
+  },
+  "homepage": "https://github.com/whorljs/whorl-memoize#readme",
+  "devDependencies": {
+    "@types/jest": "^23.0.0",
+    "jest": "^23.1.0",
+    "ts-jest": "^22.4.6",
+    "typescript": "^2.9.1"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "tsconfig.json"
+      }
+    },
+    "testMatch": [
+      "**/__tests__/*.+(ts|tsx|js)"
+    ]
+  }
+}
